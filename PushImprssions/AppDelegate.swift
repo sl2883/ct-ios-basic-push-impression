@@ -6,17 +6,37 @@
 //
 
 import UIKit
+import CleverTapSDK
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
 
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        CleverTap.setDebugLevel(CleverTapLogLevel.debug.rawValue);
+        CleverTap.autoIntegrate();
+        registerForPush();
+        CleverTap.sharedInstance()?.enableDeviceNetworkInfoReporting(true);
+        CleverTap.sharedInstance()?.notifyApplicationLaunched(withOptions: launchOptions);
+        
         return true
     }
-
+    
+    func registerForPush() {
+        // Register for Push notifications
+        UNUserNotificationCenter.current().delegate = self
+        // request Permissions
+        UNUserNotificationCenter.current().requestAuthorization(options: [.sound, .badge, .alert], completionHandler: {granted, error in
+            if granted {
+                DispatchQueue.main.async {
+                    UIApplication.shared.registerForRemoteNotifications()
+                }
+            }
+        })
+    }
+    
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
