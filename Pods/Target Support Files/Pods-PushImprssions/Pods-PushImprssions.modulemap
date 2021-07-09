@@ -1,0 +1,6 @@
+framework module Pods_PushImprssions {
+  umbrella header "Pods-PushImprssions-umbrella.h"
+
+  export *
+  module * { export * }
+}
