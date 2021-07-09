@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,7 +23,7 @@
 		074C6208AD4DDFBF47DC79178EE6A6E3 /* CTBaseHeaderFooterViewControllerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 797187E6C3CFE189A5779D931440D751 /* CTBaseHeaderFooterViewControllerPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		07E4663ABA69695BCE91BCA293E64A2E /* CTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FCD4A60077E1624916E2682910578B /* CTConstants.m */; };
 		081BC72CBD417B67D64F6CAD478B6106 /* CleverTapInstanceConfigPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = A5037F69ED14F7DA07F566C1E63A2EF2 /* CleverTapInstanceConfigPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		08EFD87FCD1ADDBBC257D495BF6E16B6 /* Pods-PushImprssions-PushImprssionsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7F824F60FC8D17B4CAFC3618CBF5D5 /* Pods-PushImprssions-PushImprssionsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08EFD87FCD1ADDBBC257D495BF6E16B6 /* Pods-PushImprssions-PushImprssionsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 075823B2DB8FAFE0F77B602C6D0B0741 /* Pods-PushImprssions-PushImprssionsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0920F5A147B07B27F8D46917AE92DDCC /* SDDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DF2F38DF6B8E1729F35BB05933C569 /* SDDisplayLink.m */; };
 		098194DE08983A5DCC3C275E18DD77E4 /* SDWebImageDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = E75A558C10EEA81D6C9FB1C3181FE440 /* SDWebImageDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09CE896E50F7549F32004275134B151B /* CTProfileBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = B263FEDB919665F2DAEA47233A0B469C /* CTProfileBuilder.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -63,7 +63,7 @@
 		23A43F6653ABF0D414C24A4EE72FA302 /* SDWebImageDownloaderDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = BBDF4E925A85BADC56B1D635026DD82F /* SDWebImageDownloaderDecryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		243DD4CB8C58D3C52F239F26C4620204 /* CTLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C89ADD50B496554599BD788D03E0F746 /* CTLocationManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		24722F8EF256ECDA94445DEB873752C7 /* DigiCertSHA2SecureServerCA.crt in Resources */ = {isa = PBXBuildFile; fileRef = 16D1F1520DD61D404D5598FE0F91B269 /* DigiCertSHA2SecureServerCA.crt */; };
-		25C3CC8FF84B00558D51E92CF16A958E /* Pods-PushImprssions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2DF3B80986F33ADA0AACB394983479 /* Pods-PushImprssions-dummy.m */; };
+		25C3CC8FF84B00558D51E92CF16A958E /* Pods-PushImprssions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 356C96D27F0A41192CFCDF753FC41C7D /* Pods-PushImprssions-dummy.m */; };
 		272853F8F421224AC6D34010D1BCDCA7 /* CleverTap+SSLPinning.h in Headers */ = {isa = PBXBuildFile; fileRef = EE0B9D900723F3C36A6E1D4B947BC10F /* CleverTap+SSLPinning.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		274CC6A44A08BE5BD20BC725F86A834A /* SDWebImageError.m in Sources */ = {isa = PBXBuildFile; fileRef = F02DEEBE25F53C3FA756A36934188480 /* SDWebImageError.m */; };
 		2A84B807172852F715AD50A2F83FCFAF /* CTValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D144EC64FFD3EFC49D0840B2C1B89FC /* CTValidator.m */; };
@@ -88,7 +88,7 @@
 		34C9699ADB06495805A3853861E257B8 /* SDImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E18E44EF7ED091A47EDB56D6309B5B /* SDImageCoder.m */; };
 		364B081BE1C5905D6AD37AA0C5F7CA86 /* CTInboxIconMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1255777A475DE7BE4EA140A1FFBC7F34 /* CTInboxIconMessageCell.m */; };
 		3650A9BDF1A514AA673C90F26D4461B9 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = A6434E6A24E4A0B01EF451E747DAA300 /* UIImage+MultiFormat.m */; };
-		36CF425412865099343B31248222267C /* Pods-PushImprssionsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B73DAFBF455F8F659779988C88BB8C3 /* Pods-PushImprssionsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36CF425412865099343B31248222267C /* Pods-PushImprssionsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A05A2016714E58A93150E61F50AA6673 /* Pods-PushImprssionsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		393B6EFB64E8B971AC02B4E09B4D726C /* SDInternalMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 588975BCA73A4B107BA9C2B4303FB369 /* SDInternalMacros.m */; };
 		3A6BFA747623E293321BD98A9AE9AD7E /* CTInAppNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA95D9C16ADAD2A177C6CE7850EDE11 /* CTInAppNotification.m */; };
 		3A7510F71147C38B2F6688410C41B74C /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC5695B81CF11C0A553A12A5860247F /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -173,7 +173,7 @@
 		7AB0A847A46D799731619004D46B3CA4 /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 10AA7EC4C81E2B22C25670E78C066473 /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B08D0067D014251922E983050EDF789 /* CTMessageMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 7633A9C09075B897BC90156B793E2886 /* CTMessageMO+CoreDataProperties.m */; };
 		7B1BB276BAA37AFBE87A4801788C5A16 /* CTHalfInterstitialViewController~iphoneport.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AFF751FD432A9AA254FECF15720A012 /* CTHalfInterstitialViewController~iphoneport.xib */; };
-		7B95B6415BC5FC0E8D0FAB81E058B7EE /* Pods-PushImprssions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 051908D5C75DA763C7EE151A7DE4A23E /* Pods-PushImprssions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B95B6415BC5FC0E8D0FAB81E058B7EE /* Pods-PushImprssions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA17531DBE49BC37A79EA72B9FBC3A3 /* Pods-PushImprssions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B974439602741FCAB081BD9D5DE9977 /* ct_volume_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 088462FE6805FC1249B34FEA8F75A79B /* ct_volume_on.png */; };
 		7C4146674C019C1D48849FA4EE1DE96F /* CTInboxSimpleMessageCell~port.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FD3FF6182E4D533C4A0914A313F5147 /* CTInboxSimpleMessageCell~port.xib */; };
 		7D52E2E344DB864306897B507B5DB3F2 /* NSBezierPath+SDRoundedCorners.h in Headers */ = {isa = PBXBuildFile; fileRef = 99EB62C7C3AD48A9C49F7D57656FC904 /* NSBezierPath+SDRoundedCorners.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -226,6 +226,7 @@
 		A4A6009BA56AF1540C7173379158F08D /* CTImageInAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A54918FD2F7CF099CF9355EAE31D4BB /* CTImageInAppViewController.m */; };
 		A4E618CD8A1853CE886551F33DE37737 /* SDImageCacheDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D35CB7EB1D71AE5A3E55E9476E30E2 /* SDImageCacheDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5101DDFFAA559FC58229DFF73D58440 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1347963BD85C651F46981E4C28E97119 /* UIView+WebCacheOperation.m */; };
+		A5473EC84C4AC798BBE44AA2707BDC45 /* Pods-PushImprssions-NotificationServiceExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12087F23A2E9345E059A7C6D9356F66A /* Pods-PushImprssions-NotificationServiceExtension-dummy.m */; };
 		A5687EB453D09EF362844C193CBFDE49 /* CTInAppDisplayViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 623B88E25472EDFE56FF887213FB9821 /* CTInAppDisplayViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A63A696F23E8A7A04FB506045C977833 /* CTInAppUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB4E6835C2F133C4EB4308DAA559D54 /* CTInAppUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A65C8E0BBE6ED5736BF8BAE4163E056B /* UIColor+SDHexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 596557ECFB936865ECD1211F55FC7476 /* UIColor+SDHexString.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -323,12 +324,13 @@
 		DD2090FB05D52DC15342FD21A211E6A6 /* CTDismissButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A805BB33222E677533FE16B46038E5F /* CTDismissButton.m */; };
 		DDA5937AC33CA53AB584318B94F29E52 /* UIImage+ForceDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D23D0475BB99DF0278FCDC603A6EF26 /* UIImage+ForceDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DDF9F03DA0B37A68C6B1E5E8D82FD4EF /* CTInboxSimpleMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A86A9E489D8E29480087523C85303F /* CTInboxSimpleMessageCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE4A7298A13A33A03012BDB81ACFA842 /* Pods-PushImprssions-NotificationServiceExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7240A1DBCFE6DFBCAA98EE4DF376C64 /* Pods-PushImprssions-NotificationServiceExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF749DA81CD3AE75A341A4EB395B0353 /* CTLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 481CB715AFC8629117AD9F05560CFFD5 /* CTLogger.m */; };
 		E067C0AB35705CA2C41EF277FA3E3B2E /* SDImageIOAnimatedCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9215CB8849BB2DED883B912B855B7F41 /* SDImageIOAnimatedCoder.m */; };
 		E18B5B56EB5FAE73E3CF1AA38937550A /* SDImageAWebPCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D54CAEB643D302AC21C7DF00A832BDA /* SDImageAWebPCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1CB375AA4CC07F87824F5457DA4E13F /* SDImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD43A93286E95DDF84651B12B7E4B5F /* SDImageLoader.m */; };
 		E1CB91836DCBB13A3F221E1AA940AA8C /* UIView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC48624A9343DE539F0CE41F29472A4 /* UIView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E42579B2EE39B7B76C0857214636281E /* Pods-PushImprssionsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED7B1EE934BCF8843D692C1565D8573 /* Pods-PushImprssionsTests-dummy.m */; };
+		E42579B2EE39B7B76C0857214636281E /* Pods-PushImprssionsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8399851B5E58744447E9111607F5E84 /* Pods-PushImprssionsTests-dummy.m */; };
 		E43DADEAE8DA7DA7868B7AE002327F88 /* CleverTapInboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDE4D6490B31301F2A170EF4AE2757A /* CleverTapInboxViewController.m */; };
 		E474F38BD482324371F3D5BA700C28D2 /* CTCarouselImageMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B74F7BADC76E2E1075820D429D6845 /* CTCarouselImageMessageCell.m */; };
 		E4A7787E89991B5A62809F3C8FE04C24 /* SDImageCachesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01970FA4D604772296D630765F213AC5 /* SDImageCachesManager.m */; };
@@ -355,8 +357,9 @@
 		F309E6E75E0547B8CD64FBC80533A538 /* SDWebImageCacheKeyFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 35A92FB9A6D95DCAC67103DD56436A75 /* SDWebImageCacheKeyFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F33251F3A7DF3012E8CF524E3951AC0F /* CTHeaderViewController~iphoneland.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0A390903F791EBE9970C13CDF2B1B98 /* CTHeaderViewController~iphoneland.xib */; };
 		F3D57BCF6E973A65F40CAB5DFFE5C4F0 /* SDImageAssetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E649556AAC743DCF320DEA8E9E75B039 /* SDImageAssetManager.m */; };
-		F3D5EC835A45D4518C40DDE1EB90689E /* Pods-PushImprssions-PushImprssionsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2784ACD9CE839CDF9E087BDCE14C3885 /* Pods-PushImprssions-PushImprssionsUITests-dummy.m */; };
+		F3D5EC835A45D4518C40DDE1EB90689E /* Pods-PushImprssions-PushImprssionsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 326437BA695ADCA61CA56DE4387EF102 /* Pods-PushImprssions-PushImprssionsUITests-dummy.m */; };
 		F42475D18744C4A8FA9426E32DD6F5F8 /* SDImageTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = BC65D3641BD410E01660AFF42DAB9B7C /* SDImageTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4A0916E6BC1DE88B5CE427D5E09B603 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39310B64C8143D884E92C1C8E0B4560E /* Foundation.framework */; };
 		F524B1B068A75937DF6CCE18C79D6342 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C21F2733F80B1398B967A39DFDFCC353 /* UIImageView+WebCache.m */; };
 		F682821C259A3CACAD9B779FA90E2470 /* CleverTap+FeatureFlags.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BFC3B4C5CED906A2B273845F780C77D /* CleverTap+FeatureFlags.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F68DEDF81297FA3A268AF539DA9AB1F5 /* CTInboxIconMessageCell~port.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84ADC6E3587472A177D6EF6D65EA2375 /* CTInboxIconMessageCell~port.xib */; };
@@ -396,6 +399,20 @@
 			remoteGlobalIDString = 3847153A6E5EEFB86565BA840768F429;
 			remoteInfo = SDWebImage;
 		};
+		54797B789A105DB80E5D8A1720AC35BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3847153A6E5EEFB86565BA840768F429;
+			remoteInfo = SDWebImage;
+		};
+		6ACDADEC9B8AFE698EDEE98F4D1D1514 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E12536816B6C31D7AF55D161F6F97141;
+			remoteInfo = "CleverTap-iOS-SDK";
+		};
 		A04F89F4AA763E6E538E6BD96EB49809 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -421,6 +438,7 @@
 
 /* Begin PBXFileReference section */
 		00085D5534DD92E12E7F503C2BE00D7D /* ct_default_video.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ct_default_video.png; path = CleverTapSDK/Inbox/resources/ct_default_video.png; sourceTree = "<group>"; };
+		00D5941CC63985F10B084AD11235037E /* Pods-PushImprssionsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PushImprssionsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		01970FA4D604772296D630765F213AC5 /* SDImageCachesManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManager.m; path = SDWebImage/Core/SDImageCachesManager.m; sourceTree = "<group>"; };
 		0198455B9E2FC7C0EDD4FBCAEDFB869D /* CleverTapBuildInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTapBuildInfo.h; path = CleverTapSDK/CleverTapBuildInfo.h; sourceTree = "<group>"; };
 		01E87E64B91573733B3C73F2391C6674 /* NSImage+Compatibility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+Compatibility.m"; path = "SDWebImage/Core/NSImage+Compatibility.m"; sourceTree = "<group>"; };
@@ -431,14 +449,13 @@
 		02B3D0DD696EAA35BA31A65A789D5F4F /* CleverTap-iOS-SDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "CleverTap-iOS-SDK.modulemap"; sourceTree = "<group>"; };
 		02C77622296DCA66BB92E7F1AC25F78B /* CTConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTConstants.h; path = CleverTapSDK/CTConstants.h; sourceTree = "<group>"; };
 		03216C7C1F4208A3BD4D185B616176B6 /* CleverTapFeatureFlagsPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTapFeatureFlagsPrivate.h; path = CleverTapSDK/FeatureFlags/models/CleverTapFeatureFlagsPrivate.h; sourceTree = "<group>"; };
-		0388EB26D218DFA894AC4952821DBC6E /* Pods-PushImprssions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushImprssions.debug.xcconfig"; sourceTree = "<group>"; };
 		0408962D8D663F43E5E497C05986353A /* ic_pause@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_pause@3x.png"; path = "CleverTapSDK/Inbox/resources/ic_pause@3x.png"; sourceTree = "<group>"; };
 		050558A4569110925A69BD973D486061 /* CTCoverViewController~ipad.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTCoverViewController~ipad.xib"; path = "CleverTapSDK/InApps/resources/CTCoverViewController~ipad.xib"; sourceTree = "<group>"; };
-		051908D5C75DA763C7EE151A7DE4A23E /* Pods-PushImprssions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PushImprssions-umbrella.h"; sourceTree = "<group>"; };
 		05A68CE5A441E25D250C81DC2AB3D459 /* CTHalfInterstitialImageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTHalfInterstitialImageViewController.m; path = CleverTapSDK/InApps/CTHalfInterstitialImageViewController.m; sourceTree = "<group>"; };
 		05F29396ADEC65DC20E05E22010A19B9 /* SDDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDiskCache.h; path = SDWebImage/Core/SDDiskCache.h; sourceTree = "<group>"; };
 		0642F306399B6735F6DA6D8C82FEA7E2 /* SDWebImageDownloaderRequestModifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderRequestModifier.h; path = SDWebImage/Core/SDWebImageDownloaderRequestModifier.h; sourceTree = "<group>"; };
 		06DCFBF93C56239390FAD203A6C6C39F /* SDWebImageDownloaderConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderConfig.m; path = SDWebImage/Core/SDWebImageDownloaderConfig.m; sourceTree = "<group>"; };
+		075823B2DB8FAFE0F77B602C6D0B0741 /* Pods-PushImprssions-PushImprssionsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PushImprssions-PushImprssionsUITests-umbrella.h"; sourceTree = "<group>"; };
 		079778220C7A8CDEACC33DE1CA80449E /* SDImageCachesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManager.h; path = SDWebImage/Core/SDImageCachesManager.h; sourceTree = "<group>"; };
 		079D14AF9231DBF1CBD0A910E879EBAE /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/Core/SDImageCacheConfig.m; sourceTree = "<group>"; };
 		07FC9AA1D78537B94C7DC1F16E84A98A /* CTInboxIconMessageCell~land.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTInboxIconMessageCell~land.xib"; path = "CleverTapSDK/Inbox/resources/CTInboxIconMessageCell~land.xib"; sourceTree = "<group>"; };
@@ -453,6 +470,7 @@
 		10AA7EC4C81E2B22C25670E78C066473 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/Core/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		1196BFA7E11D0E5889AA675ED1DDBBFD /* CTNotificationButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTNotificationButton.m; path = CleverTapSDK/CTNotificationButton.m; sourceTree = "<group>"; };
 		11FF580516453F68F108B5F8E5CE9989 /* CTInterstitialImageViewController~iphoneland.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTInterstitialImageViewController~iphoneland.xib"; path = "CleverTapSDK/InApps/resources/CTInterstitialImageViewController~iphoneland.xib"; sourceTree = "<group>"; };
+		12087F23A2E9345E059A7C6D9356F66A /* Pods-PushImprssions-NotificationServiceExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PushImprssions-NotificationServiceExtension-dummy.m"; sourceTree = "<group>"; };
 		1255777A475DE7BE4EA140A1FFBC7F34 /* CTInboxIconMessageCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTInboxIconMessageCell.m; path = CleverTapSDK/Inbox/cells/CTInboxIconMessageCell.m; sourceTree = "<group>"; };
 		1347963BD85C651F46981E4C28E97119 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/Core/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		13723A80AD5160855B370E662814ED7A /* CTCoverViewController~ipadland.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTCoverViewController~ipadland.xib"; path = "CleverTapSDK/InApps/resources/CTCoverViewController~ipadland.xib"; sourceTree = "<group>"; };
@@ -468,6 +486,7 @@
 		173A1D6E6B299A2F364B4410BB44F0C8 /* CTPlistInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPlistInfo.m; path = CleverTapSDK/CTPlistInfo.m; sourceTree = "<group>"; };
 		177DBF5B18D63A64618D5A5F5581BDB4 /* SDImageCacheDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheDefine.m; path = SDWebImage/Core/SDImageCacheDefine.m; sourceTree = "<group>"; };
 		18480BF510C631B38E0FB66089912EAB /* SDAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImageView.m; path = SDWebImage/Core/SDAnimatedImageView.m; sourceTree = "<group>"; };
+		190BAEECC73670A5CEC2706EFA8E9FF5 /* Pods-PushImprssions-PushImprssionsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushImprssions-PushImprssionsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		19AC2FCEB0ABEF0168C4BC7AA9BF8023 /* SDWebImageCacheKeyFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCacheKeyFilter.m; path = SDWebImage/Core/SDWebImageCacheKeyFilter.m; sourceTree = "<group>"; };
 		19B398317ED0E746BA5459C4647BED2A /* SDWebImageOptionsProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageOptionsProcessor.m; path = SDWebImage/Core/SDWebImageOptionsProcessor.m; sourceTree = "<group>"; };
 		19DA64E32F3668BBAD99C93DC0B496B3 /* SDWebImageDownloaderDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderDecryptor.m; path = SDWebImage/Core/SDWebImageDownloaderDecryptor.m; sourceTree = "<group>"; };
@@ -483,9 +502,8 @@
 		23BC9B71CFDA0B5FBD3C435D50A65DE4 /* CTUserMO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTUserMO.m; path = CleverTapSDK/Inbox/models/CTUserMO.m; sourceTree = "<group>"; };
 		2477EA67B15D43481EB7D723FBB29409 /* CTProfileBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTProfileBuilder.m; path = CleverTapSDK/CTProfileBuilder.m; sourceTree = "<group>"; };
 		2552F2D888AD7966970277507C4BE7E2 /* SDFileAttributeHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDFileAttributeHelper.h; path = SDWebImage/Private/SDFileAttributeHelper.h; sourceTree = "<group>"; };
-		2784ACD9CE839CDF9E087BDCE14C3885 /* Pods-PushImprssions-PushImprssionsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PushImprssions-PushImprssionsUITests-dummy.m"; sourceTree = "<group>"; };
+		2688A1B78CE1015A3C2231E99EF7440E /* Pods-PushImprssions-NotificationServiceExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PushImprssions-NotificationServiceExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2816B075E66AF31CC1B875939C645A3A /* CTCoverImageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTCoverImageViewController.m; path = CleverTapSDK/InApps/CTCoverImageViewController.m; sourceTree = "<group>"; };
-		29083866EE75C7E2E2AE69C7E2261CBC /* Pods-PushImprssions-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PushImprssions-acknowledgements.markdown"; sourceTree = "<group>"; };
 		295B76FA3BBDB54ECF4B8A406D843A36 /* SDImageCodersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCodersManager.m; path = SDWebImage/Core/SDImageCodersManager.m; sourceTree = "<group>"; };
 		2978ED684198733D9466B05D6FBC7F4C /* CTLocalDataStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTLocalDataStore.m; path = CleverTapSDK/CTLocalDataStore.m; sourceTree = "<group>"; };
 		2A8E39ED41338406B0DF2DB9EE3F96B5 /* SDImageAPNGCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAPNGCoder.h; path = SDWebImage/Core/SDImageAPNGCoder.h; sourceTree = "<group>"; };
@@ -500,12 +518,13 @@
 		3152E04500DA4E5C92924BFA4539DC46 /* CTCarouselImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTCarouselImageView.m; path = CleverTapSDK/Inbox/views/CTCarouselImageView.m; sourceTree = "<group>"; };
 		31BECC4C957C5742D3B1EFC6ADCDAEDC /* CTBaseHeaderFooterViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTBaseHeaderFooterViewController.m; path = CleverTapSDK/InApps/CTBaseHeaderFooterViewController.m; sourceTree = "<group>"; };
 		32580033F3E153F799793EF77BCF3E45 /* CTUriHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTUriHelper.h; path = CleverTapSDK/CTUriHelper.h; sourceTree = "<group>"; };
+		326437BA695ADCA61CA56DE4387EF102 /* Pods-PushImprssions-PushImprssionsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PushImprssions-PushImprssionsUITests-dummy.m"; sourceTree = "<group>"; };
 		333F979108B8805D2670A45266B470FC /* CTCoverImageViewController~ipad.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTCoverImageViewController~ipad.xib"; path = "CleverTapSDK/InApps/resources/CTCoverImageViewController~ipad.xib"; sourceTree = "<group>"; };
-		338C94016692916CA3A4F798CDA6F698 /* Pods-PushImprssions-PushImprssionsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PushImprssions-PushImprssionsUITests.modulemap"; sourceTree = "<group>"; };
 		340AE012A9A5A927952ED6C5870F5AE7 /* CTInAppUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTInAppUtils.m; path = CleverTapSDK/CTInAppUtils.m; sourceTree = "<group>"; };
 		34A519569153480CBEA2FABE438159BF /* CTInterstitialViewController~ipadland.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTInterstitialViewController~ipadland.xib"; path = "CleverTapSDK/InApps/resources/CTInterstitialViewController~ipadland.xib"; sourceTree = "<group>"; };
 		353D4B1D88B960A607C116BD13C703A8 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/Core/UIImage+GIF.m"; sourceTree = "<group>"; };
 		354F8D7F08EE69BCA76510908CCC82D0 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/Core/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		356C96D27F0A41192CFCDF753FC41C7D /* Pods-PushImprssions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PushImprssions-dummy.m"; sourceTree = "<group>"; };
 		35A92FB9A6D95DCAC67103DD56436A75 /* SDWebImageCacheKeyFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCacheKeyFilter.h; path = SDWebImage/Core/SDWebImageCacheKeyFilter.h; sourceTree = "<group>"; };
 		36587913967145D7118640B0021ACB78 /* CTInAppFCManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTInAppFCManager.h; path = CleverTapSDK/CTInAppFCManager.h; sourceTree = "<group>"; };
 		36E70BE67031A10226C4E1F6E9855464 /* CleverTapSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CleverTapSDK.framework; path = "CleverTap-iOS-SDK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -516,6 +535,7 @@
 		3AA48C167412463D883211B3797368B1 /* CleverTapDisplayUnit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CleverTapDisplayUnit.m; path = CleverTapSDK/DisplayUnit/models/CleverTapDisplayUnit.m; sourceTree = "<group>"; };
 		3CCC5DFBB1D755DD4FCEE72B02B01B09 /* CTUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTUtils.m; path = CleverTapSDK/CTUtils.m; sourceTree = "<group>"; };
 		3E2F70F6E99E951C711D550BBCB37D4A /* SDImageCachesManagerOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManagerOperation.h; path = SDWebImage/Private/SDImageCachesManagerOperation.h; sourceTree = "<group>"; };
+		3E4A4FB5E4F3D44ABFF7759D11672822 /* Pods-PushImprssions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushImprssions.debug.xcconfig"; sourceTree = "<group>"; };
 		3EA8F500A184BE58DA74BDEB4A2698DD /* CTSwipeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTSwipeView.h; path = CleverTapSDK/Inbox/views/CTSwipeView.h; sourceTree = "<group>"; };
 		3F5BBD992B9D9A651AB438E05CE4F7B6 /* SDAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageView.h; path = SDWebImage/Core/SDAnimatedImageView.h; sourceTree = "<group>"; };
 		3FD99AE889FB879EDF1B9211E51E82FC /* CTUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTUtils.h; path = CleverTapSDK/CTUtils.h; sourceTree = "<group>"; };
@@ -526,6 +546,8 @@
 		41AFC5BDBBF372799A973DB3DF58D290 /* SDWebImageDownloaderConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderConfig.h; path = SDWebImage/Core/SDWebImageDownloaderConfig.h; sourceTree = "<group>"; };
 		428BE61E78281FF5C6B9E9BBAE165DC4 /* CTInboxIconMessageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTInboxIconMessageCell.h; path = CleverTapSDK/Inbox/cells/CTInboxIconMessageCell.h; sourceTree = "<group>"; };
 		44FF25D153A8284510DFF21322067458 /* CleverTap+Inbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CleverTap+Inbox.h"; path = "CleverTapSDK/CleverTap+Inbox.h"; sourceTree = "<group>"; };
+		455A50F5FCF5E93A8A65C12F8C10F711 /* Pods-PushImprssionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushImprssionsTests.release.xcconfig"; sourceTree = "<group>"; };
+		45ED06B252EA72C8E929B2D1A8CB6412 /* Pods-PushImprssions-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PushImprssions-frameworks.sh"; sourceTree = "<group>"; };
 		45F2B6F22BEC6A8763F9CBB80CA40984 /* SDImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCoder.h; path = SDWebImage/Core/SDImageCoder.h; sourceTree = "<group>"; };
 		45FCEC4F6199734FE154975D02D4C99B /* CTHalfInterstitialViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTHalfInterstitialViewController.m; path = CleverTapSDK/InApps/CTHalfInterstitialViewController.m; sourceTree = "<group>"; };
 		46CADD225887D9E729105DF6BCBD3466 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -537,16 +559,17 @@
 		4AA26D3759E1E25864034B40D39A6115 /* CTLocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTLocationManager.m; path = CleverTapSDK/CTLocationManager.m; sourceTree = "<group>"; };
 		4AFF751FD432A9AA254FECF15720A012 /* CTHalfInterstitialViewController~iphoneport.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTHalfInterstitialViewController~iphoneport.xib"; path = "CleverTapSDK/InApps/resources/CTHalfInterstitialViewController~iphoneport.xib"; sourceTree = "<group>"; };
 		4BB55BDECC8381913345BCA75CAB860F /* CleverTapTrackedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CleverTapTrackedViewController.m; path = CleverTapSDK/CleverTapTrackedViewController.m; sourceTree = "<group>"; };
+		4C3EA50D00B960F267E4156FDFBFB176 /* Pods-PushImprssions-PushImprssionsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PushImprssions-PushImprssionsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4CC94AC9279D4585B5D592B8082A1489 /* SDWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWeakProxy.m; path = SDWebImage/Private/SDWeakProxy.m; sourceTree = "<group>"; };
-		4CD5D250DC4B473D673224EDEF4AFE0B /* Pods-PushImprssions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PushImprssions-Info.plist"; sourceTree = "<group>"; };
 		4D835305127751E53DEDD90C2108150F /* CTCertificatePinning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTCertificatePinning.m; path = CleverTapSDK/CTCertificatePinning.m; sourceTree = "<group>"; };
 		4E159BC590D2167EE5461F3A7ABEDD04 /* NSImage+Compatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+Compatibility.h"; path = "SDWebImage/Core/NSImage+Compatibility.h"; sourceTree = "<group>"; };
 		4F79B0B44FD4EC76BFDF15F32B770B67 /* SDImageGraphics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageGraphics.m; path = SDWebImage/Core/SDImageGraphics.m; sourceTree = "<group>"; };
 		4FBF88D793CA3F96F5D93EA90DC5329E /* CTCoverImageViewController~ipadland.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTCoverImageViewController~ipadland.xib"; path = "CleverTapSDK/InApps/resources/CTCoverImageViewController~ipadland.xib"; sourceTree = "<group>"; };
-		5066F55B7F20DAAEE347E29CC831D257 /* Pods-PushImprssionsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PushImprssionsTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		50DA7536273350AED3602C5A6A244D56 /* SDAnimatedImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SDAnimatedImageView+WebCache.h"; path = "SDWebImage/Core/SDAnimatedImageView+WebCache.h"; sourceTree = "<group>"; };
 		5151C2D5B3EE30D93C90EEAE64144A71 /* CTValidationResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTValidationResult.m; path = CleverTapSDK/CTValidationResult.m; sourceTree = "<group>"; };
 		515BA841A7851E054ED8572F4F1C5D3D /* SDAsyncBlockOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAsyncBlockOperation.h; path = SDWebImage/Private/SDAsyncBlockOperation.h; sourceTree = "<group>"; };
+		526BF896BD959354F0A5B5F6C5916243 /* Pods-PushImprssions-NotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushImprssions-NotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		52B2E6D4E7B104F4D961C85A070AFBE8 /* Pods-PushImprssions-NotificationServiceExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PushImprssions-NotificationServiceExtension-Info.plist"; sourceTree = "<group>"; };
 		52ECA9754A510523261D0BE3DA952E31 /* CTFooterViewController~iphoneport.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTFooterViewController~iphoneport.xib"; path = "CleverTapSDK/InApps/resources/CTFooterViewController~iphoneport.xib"; sourceTree = "<group>"; };
 		53771849DA419F6B6DF044B3E8A2B233 /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDWebImage.modulemap; sourceTree = "<group>"; };
 		5459A6971B23B8893FA570DDCE1B77F9 /* CTCarouselImageMessageCell~land.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTCarouselImageMessageCell~land.xib"; path = "CleverTapSDK/Inbox/resources/CTCarouselImageMessageCell~land.xib"; sourceTree = "<group>"; };
@@ -565,10 +588,10 @@
 		5DCCF137ABDBAB15311A982E3588D025 /* CTUIUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTUIUtils.m; path = CleverTapSDK/CTUIUtils.m; sourceTree = "<group>"; };
 		5FD555AEA7782336F21A1F6DC5B08C90 /* Inbox.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = Inbox.xcdatamodel; sourceTree = "<group>"; };
 		6043EC6FEB1A726C8988812A167B42E3 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/Core/UIImage+GIF.h"; sourceTree = "<group>"; };
-		60E26B003F5E80029DD02385A03D2306 /* Pods-PushImprssions-PushImprssionsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PushImprssions-PushImprssionsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		623B88E25472EDFE56FF887213FB9821 /* CTInAppDisplayViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTInAppDisplayViewController.h; path = CleverTapSDK/CTInAppDisplayViewController.h; sourceTree = "<group>"; };
 		63680C13AA3C50E2653E42E3E276D142 /* CTInterstitialViewController~ipad.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTInterstitialViewController~ipad.xib"; path = "CleverTapSDK/InApps/resources/CTInterstitialViewController~ipad.xib"; sourceTree = "<group>"; };
 		63C98A04CD3C9676747533E685984825 /* CleverTapDisplayUnitContent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CleverTapDisplayUnitContent.m; path = CleverTapSDK/DisplayUnit/models/CleverTapDisplayUnitContent.m; sourceTree = "<group>"; };
+		63EA917BE12E50ACD3D41A6E8D0105D4 /* Pods-PushImprssions-PushImprssionsUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PushImprssions-PushImprssionsUITests-Info.plist"; sourceTree = "<group>"; };
 		66B807B43D3214C224B79A1FF4DF75F8 /* CTAVPlayerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTAVPlayerViewController.h; path = CleverTapSDK/InApps/CTAVPlayerViewController.h; sourceTree = "<group>"; };
 		67D8E061785AFC514ADA7D80A93D5F96 /* CTInboxMessageActionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTInboxMessageActionView.h; path = CleverTapSDK/Inbox/views/CTInboxMessageActionView.h; sourceTree = "<group>"; };
 		68169B6B254C241740CBD35C275423FF /* CTHeaderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTHeaderViewController.m; path = CleverTapSDK/InApps/CTHeaderViewController.m; sourceTree = "<group>"; };
@@ -587,12 +610,11 @@
 		6DDE90D91448FAE7F635CFD05EE8D8B9 /* CTDisplayUnitController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTDisplayUnitController.h; path = CleverTapSDK/DisplayUnit/controllers/CTDisplayUnitController.h; sourceTree = "<group>"; };
 		6E1648AFD995FE7E8B8C73ABB71AABB2 /* UIImage+Metadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Metadata.h"; path = "SDWebImage/Core/UIImage+Metadata.h"; sourceTree = "<group>"; };
 		6EBAB769F711E4360E0216B3745A0552 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/Core/SDWebImageOperation.h; sourceTree = "<group>"; };
-		6ED7B1EE934BCF8843D692C1565D8573 /* Pods-PushImprssionsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PushImprssionsTests-dummy.m"; sourceTree = "<group>"; };
-		6FB734E7D6C3F5197DFC15364E3E3348 /* Pods-PushImprssionsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PushImprssionsTests.modulemap"; sourceTree = "<group>"; };
 		7074B9704FD8012D32F29E34CF05C517 /* SDWebImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDWebImage-Info.plist"; sourceTree = "<group>"; };
 		709AECE389AA8ED4D8898899E4654C47 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/Core/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
 		726640CD2E48763D9F4A5DDA21E390BB /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/Core/SDImageCache.h; sourceTree = "<group>"; };
 		73B277D947B14E0E72B3F0B0E29F9001 /* CTHalfInterstitialImageViewController~ipad.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTHalfInterstitialImageViewController~ipad.xib"; path = "CleverTapSDK/InApps/resources/CTHalfInterstitialImageViewController~ipad.xib"; sourceTree = "<group>"; };
+		744F6B48780B9BE3983B9992B19713C7 /* Pods-PushImprssions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PushImprssions-Info.plist"; sourceTree = "<group>"; };
 		74BF0C904E9AC623B8E835C569413D77 /* CTInboxUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTInboxUtils.h; path = CleverTapSDK/Inbox/models/CTInboxUtils.h; sourceTree = "<group>"; };
 		75494CF70CBD22B61A9630F87E79EC3F /* SDWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImage.h; path = WebImage/SDWebImage.h; sourceTree = "<group>"; };
 		7623523F6EFF2D959D1390AA6FE077E0 /* CTCarouselImageMessageCell~port.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTCarouselImageMessageCell~port.xib"; path = "CleverTapSDK/Inbox/resources/CTCarouselImageMessageCell~port.xib"; sourceTree = "<group>"; };
@@ -600,17 +622,15 @@
 		77717A54DA5DBA0C046E444510EF41C8 /* CTBaseHeaderFooterViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTBaseHeaderFooterViewController.h; path = CleverTapSDK/InApps/CTBaseHeaderFooterViewController.h; sourceTree = "<group>"; };
 		784044D062B6D59CAFAE7C63A44B816C /* SDImageGIFCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGIFCoder.h; path = SDWebImage/Core/SDImageGIFCoder.h; sourceTree = "<group>"; };
 		78A86A9E489D8E29480087523C85303F /* CTInboxSimpleMessageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTInboxSimpleMessageCell.h; path = CleverTapSDK/Inbox/cells/CTInboxSimpleMessageCell.h; sourceTree = "<group>"; };
-		790E62476A053DAE425CCBF440855DD2 /* Pods-PushImprssions-PushImprssionsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushImprssions-PushImprssionsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7923B1CCE144E1C0A2E8AE5868D3ECC7 /* CleverTap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTap.h; path = CleverTapSDK/CleverTap.h; sourceTree = "<group>"; };
 		797187E6C3CFE189A5779D931440D751 /* CTBaseHeaderFooterViewControllerPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTBaseHeaderFooterViewControllerPrivate.h; path = CleverTapSDK/InApps/CTBaseHeaderFooterViewControllerPrivate.h; sourceTree = "<group>"; };
 		797F0F191324AE4B8989BFF6287E9564 /* CTInterstitialViewController~iphoneland.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTInterstitialViewController~iphoneland.xib"; path = "CleverTapSDK/InApps/resources/CTInterstitialViewController~iphoneland.xib"; sourceTree = "<group>"; };
 		79FC531F934785FC58DBEB642CE93B07 /* SDWebImageDownloaderResponseModifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderResponseModifier.m; path = SDWebImage/Core/SDWebImageDownloaderResponseModifier.m; sourceTree = "<group>"; };
+		7A5FE6E5B46487151477787D14AE1993 /* Pods-PushImprssions-NotificationServiceExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PushImprssions-NotificationServiceExtension-acknowledgements.plist"; sourceTree = "<group>"; };
 		7AC4706FF8263DD80E1CDEEA8334AA0F /* CTInAppDisplayViewControllerPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTInAppDisplayViewControllerPrivate.h; path = CleverTapSDK/CTInAppDisplayViewControllerPrivate.h; sourceTree = "<group>"; };
-		7B73DAFBF455F8F659779988C88BB8C3 /* Pods-PushImprssionsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PushImprssionsTests-umbrella.h"; sourceTree = "<group>"; };
 		7BBF157D33B30296112A25E7B2F62CBB /* CTInterstitialImageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTInterstitialImageViewController.h; path = CleverTapSDK/InApps/CTInterstitialImageViewController.h; sourceTree = "<group>"; };
 		7D75716B752C6418C83350A7220835C0 /* SDImageCachesManagerOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManagerOperation.m; path = SDWebImage/Private/SDImageCachesManagerOperation.m; sourceTree = "<group>"; };
 		7E19890E562EFCA8D61FF0AD3DA2FDA1 /* CTInboxController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTInboxController.m; path = CleverTapSDK/Inbox/controllers/CTInboxController.m; sourceTree = "<group>"; };
-		7EB1EB6503A93AA81A279D328B0A5EA9 /* Pods-PushImprssions-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PushImprssions-frameworks.sh"; sourceTree = "<group>"; };
 		7F500DCB97FD748BE2F45BCD0A1464F8 /* CTInboxSimpleMessageCell~land.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTInboxSimpleMessageCell~land.xib"; path = "CleverTapSDK/Inbox/resources/CTInboxSimpleMessageCell~land.xib"; sourceTree = "<group>"; };
 		80C25BC0D70B8AB950A82E49CA4BB5B8 /* CleverTap-iOS-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CleverTap-iOS-SDK-dummy.m"; sourceTree = "<group>"; };
 		81A5598EFDAD4FB51005E42D1BDED03C /* SDAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImage.h; path = SDWebImage/Core/SDAnimatedImage.h; sourceTree = "<group>"; };
@@ -626,17 +646,16 @@
 		856764C6E4E126A769F34C36FD883993 /* CTUserMO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTUserMO.h; path = CleverTapSDK/Inbox/models/CTUserMO.h; sourceTree = "<group>"; };
 		857A653845C589E747489BE4E6BA1105 /* SDImageFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageFrame.m; path = SDWebImage/Core/SDImageFrame.m; sourceTree = "<group>"; };
 		86149EFC79E6898DB6A65FA67EE13F74 /* CleverTapUTMDetail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CleverTapUTMDetail.m; path = CleverTapSDK/CleverTapUTMDetail.m; sourceTree = "<group>"; };
-		87A927E1D72693E53359A716BED578FE /* Pods-PushImprssions-PushImprssionsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PushImprssions-PushImprssionsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		890CD24BD09E89A66D30CED2C8568D3E /* CTValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTValidator.h; path = CleverTapSDK/CTValidator.h; sourceTree = "<group>"; };
 		895CF667877BAD22BF5B003B69731B8D /* CTKnownProfileFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTKnownProfileFields.h; path = CleverTapSDK/CTKnownProfileFields.h; sourceTree = "<group>"; };
 		896510111147F4667A4F36EC474DB4DD /* ic_pause@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_pause@1x.png"; path = "CleverTapSDK/Inbox/resources/ic_pause@1x.png"; sourceTree = "<group>"; };
 		8967B0B4DAAB9319AC6DBC34D4053DE9 /* SDWebImageIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageIndicator.h; path = SDWebImage/Core/SDWebImageIndicator.h; sourceTree = "<group>"; };
-		8C260215C18C71A764AC253B731A0E8E /* Pods-PushImprssionsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PushImprssionsTests-Info.plist"; sourceTree = "<group>"; };
+		8AA68C8A10C0FB320F84DD0E93489C2E /* Pods-PushImprssions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushImprssions.release.xcconfig"; sourceTree = "<group>"; };
+		8AC4EF1B23B0C3689DE6B0ABA655452B /* Pods-PushImprssionsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PushImprssionsTests-Info.plist"; sourceTree = "<group>"; };
 		8C460B63B04177297BF99EC60EB056BA /* CTImageInAppViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTImageInAppViewController.h; path = CleverTapSDK/InApps/CTImageInAppViewController.h; sourceTree = "<group>"; };
 		8D3D3464A5285DBE3BE146005DCBC877 /* SDMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDMemoryCache.h; path = SDWebImage/Core/SDMemoryCache.h; sourceTree = "<group>"; };
 		8D54CAEB643D302AC21C7DF00A832BDA /* SDImageAWebPCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAWebPCoder.h; path = SDWebImage/Core/SDImageAWebPCoder.h; sourceTree = "<group>"; };
 		8DC89F0BC161390C7B7AA742133C3AA0 /* Pods_PushImprssions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PushImprssions.framework; path = "Pods-PushImprssions.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DD48B5AB030CFB196ACB0AA9B121FD7 /* Pods-PushImprssions-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PushImprssions-acknowledgements.plist"; sourceTree = "<group>"; };
 		8EBBC555F04D15EC7054F363A5618F15 /* CTCarouselMessageCell~port.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTCarouselMessageCell~port.xib"; path = "CleverTapSDK/Inbox/resources/CTCarouselMessageCell~port.xib"; sourceTree = "<group>"; };
 		90FC09AC7D86184209AD89B2167AB156 /* SDWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWeakProxy.h; path = SDWebImage/Private/SDWeakProxy.h; sourceTree = "<group>"; };
 		9215CB8849BB2DED883B912B855B7F41 /* SDImageIOAnimatedCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageIOAnimatedCoder.m; path = SDWebImage/Core/SDImageIOAnimatedCoder.m; sourceTree = "<group>"; };
@@ -646,17 +665,16 @@
 		92DA42BFF3E4C933030574E0A6A9DA04 /* CleverTapTrackedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTapTrackedViewController.h; path = CleverTapSDK/CleverTapTrackedViewController.h; sourceTree = "<group>"; };
 		92EFB02B05D4881C6BBF74DE2AB41F08 /* CleverTapJSInterface.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CleverTapJSInterface.m; path = CleverTapSDK/CleverTapJSInterface.m; sourceTree = "<group>"; };
 		932844531C9C11BD8073C4F86A7B6F6F /* CleverTapInboxMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CleverTapInboxMessage.m; path = CleverTapSDK/Inbox/models/CleverTapInboxMessage.m; sourceTree = "<group>"; };
-		952BB66226E064351F7875D36D48F9A7 /* Pods-PushImprssionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushImprssionsTests.release.xcconfig"; sourceTree = "<group>"; };
 		954FAD88B7FBE10A182C642A47B37EB0 /* SDWebImageDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDefine.m; path = SDWebImage/Core/SDWebImageDefine.m; sourceTree = "<group>"; };
 		961732397A5FB77EA65AB580C674B06C /* CleverTapInAppNotificationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTapInAppNotificationDelegate.h; path = CleverTapSDK/CleverTapInAppNotificationDelegate.h; sourceTree = "<group>"; };
 		97248F9ACA8DAE15E34E3DF4688500A3 /* CTInAppNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTInAppNotification.h; path = CleverTapSDK/CTInAppNotification.h; sourceTree = "<group>"; };
-		976A60C2FD1E00F681F7753897617125 /* Pods-PushImprssions-PushImprssionsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushImprssions-PushImprssionsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		97AF189ECB4F63BCB09D220F069E1D46 /* CleverTapInstanceConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CleverTapInstanceConfig.m; path = CleverTapSDK/CleverTapInstanceConfig.m; sourceTree = "<group>"; };
 		97D20B9C2954C61AFADF7E33C22ECCB4 /* CleverTapInboxMessageContent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CleverTapInboxMessageContent.m; path = CleverTapSDK/Inbox/models/CleverTapInboxMessageContent.m; sourceTree = "<group>"; };
 		988905109F802156F00C581B56814A2A /* CTInterstitialImageViewController~ipad.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTInterstitialImageViewController~ipad.xib"; path = "CleverTapSDK/InApps/resources/CTInterstitialImageViewController~ipad.xib"; sourceTree = "<group>"; };
 		98C944B5265A3BC945944BC7FA2149C4 /* SDmetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDmetamacros.h; path = SDWebImage/Private/SDmetamacros.h; sourceTree = "<group>"; };
 		998BAC25612F05258B37DA5441714995 /* CTPreferences.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPreferences.h; path = CleverTapSDK/CTPreferences.h; sourceTree = "<group>"; };
 		99EB62C7C3AD48A9C49F7D57656FC904 /* NSBezierPath+SDRoundedCorners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBezierPath+SDRoundedCorners.h"; path = "SDWebImage/Private/NSBezierPath+SDRoundedCorners.h"; sourceTree = "<group>"; };
+		9A3E2657A8F29E516F9CDF794AB03E9B /* Pods-PushImprssions-PushImprssionsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushImprssions-PushImprssionsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9AC5695B81CF11C0A553A12A5860247F /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/Core/NSData+ImageContentType.h"; sourceTree = "<group>"; };
 		9B09E0B0AD3396D4BDB753045F07EF6B /* CleverTap-iOS-SDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CleverTap-iOS-SDK-Info.plist"; sourceTree = "<group>"; };
 		9B2AD2517D22D327A2C7D95618CC7A2B /* SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheConfig.h; path = SDWebImage/Core/SDImageCacheConfig.h; sourceTree = "<group>"; };
@@ -669,9 +687,8 @@
 		9EEF17E7927A22F22A41BD05EBA583F9 /* SDFileAttributeHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDFileAttributeHelper.m; path = SDWebImage/Private/SDFileAttributeHelper.m; sourceTree = "<group>"; };
 		9FD3FF6182E4D533C4A0914A313F5147 /* CTInboxSimpleMessageCell~port.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTInboxSimpleMessageCell~port.xib"; path = "CleverTapSDK/Inbox/resources/CTInboxSimpleMessageCell~port.xib"; sourceTree = "<group>"; };
 		A018572BF31BD36C027721B5A7F5DAF2 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/Core/SDWebImageDownloader.m; sourceTree = "<group>"; };
-		A0268E9FC7902E544B6772DA3BFB7F37 /* Pods-PushImprssionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushImprssionsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A05A2016714E58A93150E61F50AA6673 /* Pods-PushImprssionsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PushImprssionsTests-umbrella.h"; sourceTree = "<group>"; };
 		A1A77984C68AD974A433B0EFB4679ED2 /* SDWebImageIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageIndicator.m; path = SDWebImage/Core/SDWebImageIndicator.m; sourceTree = "<group>"; };
-		A1BEA0B93BA67E5676FD789513D4CCC3 /* Pods-PushImprssions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PushImprssions.modulemap"; sourceTree = "<group>"; };
 		A1DBE4A7AB737652D27504E8AF501B36 /* Pods_PushImprssions_PushImprssionsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PushImprssions_PushImprssionsUITests.framework; path = "Pods-PushImprssions-PushImprssionsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A337AD722F4113AB06F6BB32C584A342 /* CTVideoThumbnailGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTVideoThumbnailGenerator.h; path = CleverTapSDK/Inbox/views/CTVideoThumbnailGenerator.h; sourceTree = "<group>"; };
 		A4DC03A2F021863269C9E16B052D5ADB /* ic_play@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_play@1x.png"; path = "CleverTapSDK/Inbox/resources/ic_play@1x.png"; sourceTree = "<group>"; };
@@ -681,6 +698,7 @@
 		A5D7B9991F3F6D593271F6D9757D5E50 /* SDAsyncBlockOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAsyncBlockOperation.m; path = SDWebImage/Private/SDAsyncBlockOperation.m; sourceTree = "<group>"; };
 		A63E4C1CAD1A968A8B9A1385475D2ABA /* SDGraphicsImageRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDGraphicsImageRenderer.m; path = SDWebImage/Core/SDGraphicsImageRenderer.m; sourceTree = "<group>"; };
 		A6434E6A24E4A0B01EF451E747DAA300 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/Core/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		A7240A1DBCFE6DFBCAA98EE4DF376C64 /* Pods-PushImprssions-NotificationServiceExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PushImprssions-NotificationServiceExtension-umbrella.h"; sourceTree = "<group>"; };
 		A725D9E817F7DC7FDE61A59F8DF67847 /* CTInboxSimpleMessageCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTInboxSimpleMessageCell.m; path = CleverTapSDK/Inbox/cells/CTInboxSimpleMessageCell.m; sourceTree = "<group>"; };
 		A7461E483F65AB57097809BDDEC75685 /* CTSwipeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTSwipeView.m; path = CleverTapSDK/Inbox/views/CTSwipeView.m; sourceTree = "<group>"; };
 		A9B229461F13FD31F5D58153DEF4AC00 /* CTLocalDataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTLocalDataStore.h; path = CleverTapSDK/CTLocalDataStore.h; sourceTree = "<group>"; };
@@ -696,7 +714,6 @@
 		AEAD814C83D4D1213A79C83B28CBCA61 /* CTFooterViewController~ipadland.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTFooterViewController~ipadland.xib"; path = "CleverTapSDK/InApps/resources/CTFooterViewController~ipadland.xib"; sourceTree = "<group>"; };
 		AED757D6110A3C734A4A0610ABCDFCB1 /* SDImageLoadersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageLoadersManager.h; path = SDWebImage/Core/SDImageLoadersManager.h; sourceTree = "<group>"; };
 		AEE29E66848ED1704300E8FEC029656B /* CTValidationResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTValidationResult.h; path = CleverTapSDK/CTValidationResult.h; sourceTree = "<group>"; };
-		AF2DF3B80986F33ADA0AACB394983479 /* Pods-PushImprssions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PushImprssions-dummy.m"; sourceTree = "<group>"; };
 		AF4A604AF07FC446A2A47585901769D1 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/Core/UIButton+WebCache.m"; sourceTree = "<group>"; };
 		B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BF1C2C4C67930548A7F9604D214154 /* CTDisplayUnitController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTDisplayUnitController.m; path = CleverTapSDK/DisplayUnit/controllers/CTDisplayUnitController.m; sourceTree = "<group>"; };
@@ -708,6 +725,7 @@
 		B3319836FAC0E158CBB8F1995F4DC13C /* CTCoverViewController~iphoneland.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTCoverViewController~iphoneland.xib"; path = "CleverTapSDK/InApps/resources/CTCoverViewController~iphoneland.xib"; sourceTree = "<group>"; };
 		B367C2BC3A4D6FC037BF63F347298E3D /* CleverTapProductConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CleverTapProductConfig.m; path = CleverTapSDK/ProductConfig/models/CleverTapProductConfig.m; sourceTree = "<group>"; };
 		B3B63FF4F6C9DB217D672E101841DB28 /* CTVideoThumbnailGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTVideoThumbnailGenerator.m; path = CleverTapSDK/Inbox/views/CTVideoThumbnailGenerator.m; sourceTree = "<group>"; };
+		B3C0B9F21C217997C4EE8CE49695DCAE /* Pods-PushImprssionsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PushImprssionsTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B463AF59BA3563836AAEFAC5DFD3F435 /* CleverTapInboxStyleConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CleverTapInboxStyleConfig.m; path = CleverTapSDK/Inbox/config/CleverTapInboxStyleConfig.m; sourceTree = "<group>"; };
 		B5739A2BAADEC19A03D7A5C7941218C3 /* CTHalfInterstitialImageViewController~ipadland.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTHalfInterstitialImageViewController~ipadland.xib"; path = "CleverTapSDK/InApps/resources/CTHalfInterstitialImageViewController~ipadland.xib"; sourceTree = "<group>"; };
 		B5A01AA1689AB47F846CD1A432504DC4 /* SDDeviceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDeviceHelper.h; path = SDWebImage/Private/SDDeviceHelper.h; sourceTree = "<group>"; };
@@ -719,6 +737,8 @@
 		B89C31AB586AC85298BDC2A4A6A7126B /* CleverTapFeatureFlags.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CleverTapFeatureFlags.m; path = CleverTapSDK/FeatureFlags/models/CleverTapFeatureFlags.m; sourceTree = "<group>"; };
 		B922E46BAE3EC2B5F68D38D5829A9398 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/Core/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
 		B9945BEAEFC11D2FAA68924AC8490C87 /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
+		B9B20FFA87B38FD3CDF55ECC20829B36 /* Pods-PushImprssionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushImprssionsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9F0397381361D5F639189890277E0D4 /* Pods-PushImprssions-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PushImprssions-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BA00381931C9A0ECC5634DBD8F67E5B1 /* CTInboxBaseMessageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTInboxBaseMessageCell.h; path = CleverTapSDK/Inbox/cells/CTInboxBaseMessageCell.h; sourceTree = "<group>"; };
 		BB661CDD9520FA72D34A109BB0ABC76A /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/Core/SDWebImageManager.m; sourceTree = "<group>"; };
 		BBD9217AD10B442A06EB558F5EA2E417 /* CTProductConfigController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTProductConfigController.h; path = CleverTapSDK/ProductConfig/controllers/CTProductConfigController.h; sourceTree = "<group>"; };
@@ -728,6 +748,7 @@
 		BCD43A93286E95DDF84651B12B7E4B5F /* SDImageLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoader.m; path = SDWebImage/Core/SDImageLoader.m; sourceTree = "<group>"; };
 		BD34E978CE784386611D30FA40025CD7 /* CTHalfInterstitialImageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTHalfInterstitialImageViewController.h; path = CleverTapSDK/InApps/CTHalfInterstitialImageViewController.h; sourceTree = "<group>"; };
 		BFADEFDF52BB47D474C66022B4915CBE /* SDImageHEICCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageHEICCoder.m; path = SDWebImage/Core/SDImageHEICCoder.m; sourceTree = "<group>"; };
+		C04C83EB51FD01FB2BD835194586EFA6 /* Pods-PushImprssions-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PushImprssions-acknowledgements.plist"; sourceTree = "<group>"; };
 		C12A4930722DD7FFE1D027220796756C /* CTInterstitialImageViewController~ipadland.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTInterstitialImageViewController~ipadland.xib"; path = "CleverTapSDK/InApps/resources/CTInterstitialImageViewController~ipadland.xib"; sourceTree = "<group>"; };
 		C21F2733F80B1398B967A39DFDFCC353 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/Core/UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		C2A3016E7134DAD09B65C50916A54632 /* CTCarouselMessageCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTCarouselMessageCell.m; path = CleverTapSDK/Inbox/cells/CTCarouselMessageCell.m; sourceTree = "<group>"; };
@@ -750,10 +771,10 @@
 		CC810B265DCD45701F4905C283A31A41 /* CTCarouselImageView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CTCarouselImageView.xib; path = CleverTapSDK/Inbox/resources/CTCarouselImageView.xib; sourceTree = "<group>"; };
 		CC83D70539A1235023DCB911B3E2A96E /* CTHeaderViewController~ipadland.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTHeaderViewController~ipadland.xib"; path = "CleverTapSDK/InApps/resources/CTHeaderViewController~ipadland.xib"; sourceTree = "<group>"; };
 		CD6D07DEA36A4DBF28F06B3FDBB7CF62 /* CTCoverImageViewController~iphoneport.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTCoverImageViewController~iphoneport.xib"; path = "CleverTapSDK/InApps/resources/CTCoverImageViewController~iphoneport.xib"; sourceTree = "<group>"; };
-		CD7F824F60FC8D17B4CAFC3618CBF5D5 /* Pods-PushImprssions-PushImprssionsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PushImprssions-PushImprssionsUITests-umbrella.h"; sourceTree = "<group>"; };
 		CDE3AD656419BFFB15925F7A4A02BC1B /* Pods_PushImprssionsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PushImprssionsTests.framework; path = "Pods-PushImprssionsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA252198108BD79223885EC651D7D05 /* CTInterstitialViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTInterstitialViewController.m; path = CleverTapSDK/InApps/CTInterstitialViewController.m; sourceTree = "<group>"; };
 		CFD8EB2528DA3560A2234A055F3AEF89 /* CTCarouselMessageCell~land.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTCarouselMessageCell~land.xib"; path = "CleverTapSDK/Inbox/resources/CTCarouselMessageCell~land.xib"; sourceTree = "<group>"; };
+		CFF4110DAC55C27A23BBA3C83462F564 /* Pods-PushImprssions-PushImprssionsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PushImprssions-PushImprssionsUITests-frameworks.sh"; sourceTree = "<group>"; };
 		D042660536D7FAC43B07D9EC3C3055A4 /* SDImageAWebPCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageAWebPCoder.m; path = SDWebImage/Core/SDImageAWebPCoder.m; sourceTree = "<group>"; };
 		D06140C7C0DE773C4960327A5558AECB /* CTKnownProfileFields.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTKnownProfileFields.m; path = CleverTapSDK/CTKnownProfileFields.m; sourceTree = "<group>"; };
 		D1738DEB20C0A766F779BC5FD22B870F /* SDWebImageError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageError.h; path = SDWebImage/Core/SDWebImageError.h; sourceTree = "<group>"; };
@@ -762,13 +783,13 @@
 		D2CF289A740581854067EAF2E5825BCB /* CTUIUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTUIUtils.h; path = CleverTapSDK/CTUIUtils.h; sourceTree = "<group>"; };
 		D2DF2F38DF6B8E1729F35BB05933C569 /* SDDisplayLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDisplayLink.m; path = SDWebImage/Private/SDDisplayLink.m; sourceTree = "<group>"; };
 		D325413EB783E87D89DC45BE238D3370 /* CTFooterViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTFooterViewController.m; path = CleverTapSDK/InApps/CTFooterViewController.m; sourceTree = "<group>"; };
-		D3ED03CC9E2018AF904170A60C3BC96C /* Pods-PushImprssions-PushImprssionsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PushImprssions-PushImprssionsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D416171816EE12B7F2D48E57BBA0D905 /* Pods-PushImprssions-NotificationServiceExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PushImprssions-NotificationServiceExtension.modulemap"; sourceTree = "<group>"; };
 		D6C4F372B25C8C7804DF09B017BC3E14 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/Core/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		D6F3A69B0E94E98410DAC4D2DC01C103 /* Pods-PushImprssions-PushImprssionsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PushImprssions-PushImprssionsUITests.modulemap"; sourceTree = "<group>"; };
 		D76790B8D49B6C37F4E02B22A2C7004A /* CleverTapEventDetail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTapEventDetail.h; path = CleverTapSDK/CleverTapEventDetail.h; sourceTree = "<group>"; };
-		D7A9375EBCBFBD55BEE5EA92F462787C /* Pods-PushImprssions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushImprssions.release.xcconfig"; sourceTree = "<group>"; };
 		D7C63C8B8D82FE5320B166AF6294A192 /* CleverTapInboxViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CleverTapInboxViewController.xib; path = CleverTapSDK/Inbox/resources/CleverTapInboxViewController.xib; sourceTree = "<group>"; };
+		D8399851B5E58744447E9111607F5E84 /* Pods-PushImprssionsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PushImprssionsTests-dummy.m"; sourceTree = "<group>"; };
 		D84F586CD448FBFB81B131650BEEC189 /* SDWebImageCacheSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCacheSerializer.h; path = SDWebImage/Core/SDWebImageCacheSerializer.h; sourceTree = "<group>"; };
-		D858B28FD52DCF166A25A2AB4D0CE3E4 /* Pods-PushImprssionsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PushImprssionsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D9CEEFD70232ADB29B905E0AF4B8D6B3 /* CleverTap-iOS-SDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CleverTap-iOS-SDK-umbrella.h"; sourceTree = "<group>"; };
 		DAB4E6835C2F133C4EB4308DAA559D54 /* CTInAppUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTInAppUtils.h; path = CleverTapSDK/CTInAppUtils.h; sourceTree = "<group>"; };
 		DB536C303266C6826EF9B3F178E00577 /* SDAnimatedImageRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageRep.h; path = SDWebImage/Core/SDAnimatedImageRep.h; sourceTree = "<group>"; };
@@ -784,6 +805,8 @@
 		E111CA798919823E957E5850E124936D /* SDInternalMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDInternalMacros.h; path = SDWebImage/Private/SDInternalMacros.h; sourceTree = "<group>"; };
 		E185F6B263DEC7708B6C9EB91E4B8BA6 /* UIImage+ForceDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ForceDecode.m"; path = "SDWebImage/Core/UIImage+ForceDecode.m"; sourceTree = "<group>"; };
 		E1920F758AA12889E0BA4D39B4BC32D9 /* UIImage+Metadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Metadata.m"; path = "SDWebImage/Core/UIImage+Metadata.m"; sourceTree = "<group>"; };
+		E1DBD221D7FB22494F8BF235CEC04179 /* Pods_PushImprssions_NotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PushImprssions_NotificationServiceExtension.framework; path = "Pods-PushImprssions-NotificationServiceExtension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E260E566562BF651A9CDA3563E8FB06F /* Pods-PushImprssionsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PushImprssionsTests.modulemap"; sourceTree = "<group>"; };
 		E4B63683F58EA5E26146D8DDB0212AF4 /* CleverTap-iOS-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CleverTap-iOS-SDK-prefix.pch"; sourceTree = "<group>"; };
 		E502C8750EE63815F562F47B4774F12D /* SDAnimatedImagePlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImagePlayer.m; path = SDWebImage/Core/SDAnimatedImagePlayer.m; sourceTree = "<group>"; };
 		E57FDD87295902471D304D00AE6537E8 /* SDImageGraphics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGraphics.h; path = SDWebImage/Core/SDImageGraphics.h; sourceTree = "<group>"; };
@@ -797,6 +820,7 @@
 		EA32BEB43759528AFE869BE9EFF31C13 /* CTPlistInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPlistInfo.h; path = CleverTapSDK/CTPlistInfo.h; sourceTree = "<group>"; };
 		EB231884D6A2FBDCC87E105948460F75 /* SDImageIOAnimatedCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOAnimatedCoder.h; path = SDWebImage/Core/SDImageIOAnimatedCoder.h; sourceTree = "<group>"; };
 		EB23898F516325FB3125D09F9742F86B /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/Core/SDWebImageCompat.h; sourceTree = "<group>"; };
+		EBA17531DBE49BC37A79EA72B9FBC3A3 /* Pods-PushImprssions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PushImprssions-umbrella.h"; sourceTree = "<group>"; };
 		EBFC25FA4A401B70F2809831CA6FDF66 /* CTInAppHTMLViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTInAppHTMLViewController.h; path = CleverTapSDK/InApps/CTInAppHTMLViewController.h; sourceTree = "<group>"; };
 		EC57CAC547D9BEE7C4890362F14363F8 /* SDAnimatedImagePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImagePlayer.h; path = SDWebImage/Core/SDAnimatedImagePlayer.h; sourceTree = "<group>"; };
 		ECDCCFB4D7D31F80A2F99B3DAB843DCA /* CTInboxBaseMessageCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTInboxBaseMessageCell.m; path = CleverTapSDK/Inbox/cells/CTInboxBaseMessageCell.m; sourceTree = "<group>"; };
@@ -804,12 +828,13 @@
 		EE0B9D900723F3C36A6E1D4B947BC10F /* CleverTap+SSLPinning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CleverTap+SSLPinning.h"; path = "CleverTapSDK/CleverTap+SSLPinning.h"; sourceTree = "<group>"; };
 		EEB589E11529569ACB171994E61AC5B1 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/Core/SDImageCache.m; sourceTree = "<group>"; };
 		EEC48624A9343DE539F0CE41F29472A4 /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/Core/UIView+WebCache.h"; sourceTree = "<group>"; };
-		EF3755D42775B6FEEA20F144DCD3E579 /* Pods-PushImprssions-PushImprssionsUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PushImprssions-PushImprssionsUITests-Info.plist"; sourceTree = "<group>"; };
 		EFC02307276E6F6528D461A352C1EEF4 /* CleverTapPushNotificationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CleverTapPushNotificationDelegate.h; path = CleverTapSDK/CleverTapPushNotificationDelegate.h; sourceTree = "<group>"; };
 		F02DEEBE25F53C3FA756A36934188480 /* SDWebImageError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageError.m; path = SDWebImage/Core/SDWebImageError.m; sourceTree = "<group>"; };
 		F45B2F5483A68C3D1A06FD1D11ECCB8B /* CTFeatureFlagsController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTFeatureFlagsController.m; path = CleverTapSDK/FeatureFlags/controllers/CTFeatureFlagsController.m; sourceTree = "<group>"; };
+		F5CBCF58A6E0C8E88EA233F936A3CB0C /* Pods-PushImprssions-PushImprssionsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PushImprssions-PushImprssionsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F6336E7EECDD2EE3F0664062A8849E8C /* SDImageLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageLoader.h; path = SDWebImage/Core/SDImageLoader.h; sourceTree = "<group>"; };
 		F7937B54BDB0DC4F04FF566309CDD093 /* CTEventBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTEventBuilder.h; path = CleverTapSDK/CTEventBuilder.h; sourceTree = "<group>"; };
+		F7B4A73B0FD6140785D52D1628C4182A /* Pods-PushImprssions-NotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushImprssions-NotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		F7C0BC698A0E74213158815C7B61A79D /* SDImageGIFCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageGIFCoder.m; path = SDWebImage/Core/SDImageGIFCoder.m; sourceTree = "<group>"; };
 		F9B3DB75798683914CAC06739843DF0E /* SDImageCoderHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCoderHelper.m; path = SDWebImage/Core/SDImageCoderHelper.m; sourceTree = "<group>"; };
 		FBDE4D6490B31301F2A170EF4AE2757A /* CleverTapInboxViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CleverTapInboxViewController.m; path = CleverTapSDK/Inbox/controllers/CleverTapInboxViewController.m; sourceTree = "<group>"; };
@@ -817,6 +842,7 @@
 		FDE44615B89F3BFD3ADCC719FCAD8E75 /* CTProductConfigController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTProductConfigController.m; path = CleverTapSDK/ProductConfig/controllers/CTProductConfigController.m; sourceTree = "<group>"; };
 		FDFA721EF3F50BA5337A15952A0DD76A /* CTCarouselImageMessageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTCarouselImageMessageCell.h; path = CleverTapSDK/Inbox/cells/CTCarouselImageMessageCell.h; sourceTree = "<group>"; };
 		FEDD4AFBE4AA8AE15F8082B40CE4E4A0 /* CTHalfInterstitialViewController~ipadland.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = "CTHalfInterstitialViewController~ipadland.xib"; path = "CleverTapSDK/InApps/resources/CTHalfInterstitialViewController~ipadland.xib"; sourceTree = "<group>"; };
+		FF54F7F61F6B05A39F19EBF5FAB53082 /* Pods-PushImprssions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PushImprssions.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -825,6 +851,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				79A01C4D99BB3E0D62F4C249BFE4EE10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378B16D9104E54DB65380C800390B4AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A0916E6BC1DE88B5CE427D5E09B603 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1029,23 +1063,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		1BCAA7DE3E436074550BDCEE23CD80C4 /* Pods-PushImprssions */ = {
-			isa = PBXGroup;
-			children = (
-				A1BEA0B93BA67E5676FD789513D4CCC3 /* Pods-PushImprssions.modulemap */,
-				29083866EE75C7E2E2AE69C7E2261CBC /* Pods-PushImprssions-acknowledgements.markdown */,
-				8DD48B5AB030CFB196ACB0AA9B121FD7 /* Pods-PushImprssions-acknowledgements.plist */,
-				AF2DF3B80986F33ADA0AACB394983479 /* Pods-PushImprssions-dummy.m */,
-				7EB1EB6503A93AA81A279D328B0A5EA9 /* Pods-PushImprssions-frameworks.sh */,
-				4CD5D250DC4B473D673224EDEF4AFE0B /* Pods-PushImprssions-Info.plist */,
-				051908D5C75DA763C7EE151A7DE4A23E /* Pods-PushImprssions-umbrella.h */,
-				0388EB26D218DFA894AC4952821DBC6E /* Pods-PushImprssions.debug.xcconfig */,
-				D7A9375EBCBFBD55BEE5EA92F462787C /* Pods-PushImprssions.release.xcconfig */,
-			);
-			name = "Pods-PushImprssions";
-			path = "Target Support Files/Pods-PushImprssions";
-			sourceTree = "<group>";
-		};
 		3A44066A2D0FE1D84ED45A856E39D34A /* SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -1054,22 +1071,6 @@
 			);
 			name = SDWebImage;
 			path = SDWebImage;
-			sourceTree = "<group>";
-		};
-		46CAE4B3F36E1E996A63452864F44307 /* Pods-PushImprssionsTests */ = {
-			isa = PBXGroup;
-			children = (
-				6FB734E7D6C3F5197DFC15364E3E3348 /* Pods-PushImprssionsTests.modulemap */,
-				D858B28FD52DCF166A25A2AB4D0CE3E4 /* Pods-PushImprssionsTests-acknowledgements.markdown */,
-				5066F55B7F20DAAEE347E29CC831D257 /* Pods-PushImprssionsTests-acknowledgements.plist */,
-				6ED7B1EE934BCF8843D692C1565D8573 /* Pods-PushImprssionsTests-dummy.m */,
-				8C260215C18C71A764AC253B731A0E8E /* Pods-PushImprssionsTests-Info.plist */,
-				7B73DAFBF455F8F659779988C88BB8C3 /* Pods-PushImprssionsTests-umbrella.h */,
-				A0268E9FC7902E544B6772DA3BFB7F37 /* Pods-PushImprssionsTests.debug.xcconfig */,
-				952BB66226E064351F7875D36D48F9A7 /* Pods-PushImprssionsTests.release.xcconfig */,
-			);
-			name = "Pods-PushImprssionsTests";
-			path = "Target Support Files/Pods-PushImprssionsTests";
 			sourceTree = "<group>";
 		};
 		4A8B624482BC4B1B561F8F84D5060B4E /* CleverTap-iOS-SDK */ = {
@@ -1231,6 +1232,19 @@
 			path = "CleverTap-iOS-SDK";
 			sourceTree = "<group>";
 		};
+		5132F98A2A095E87A6E454C36140288B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36E70BE67031A10226C4E1F6E9855464 /* CleverTapSDK.framework */,
+				8DC89F0BC161390C7B7AA742133C3AA0 /* Pods_PushImprssions.framework */,
+				E1DBD221D7FB22494F8BF235CEC04179 /* Pods_PushImprssions_NotificationServiceExtension.framework */,
+				A1DBE4A7AB737652D27504E8AF501B36 /* Pods_PushImprssions_PushImprssionsUITests.framework */,
+				CDE3AD656419BFFB15925F7A4A02BC1B /* Pods_PushImprssionsTests.framework */,
+				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		67346649E4B9D438112F24DDEAA297C7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1240,14 +1254,65 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		B4562D4EACC3AB2EFC392F6E848E0F54 /* Targets Support Files */ = {
+		73E282DC40A1815057CAB135B7456C7D /* Pods-PushImprssions-NotificationServiceExtension */ = {
 			isa = PBXGroup;
 			children = (
-				1BCAA7DE3E436074550BDCEE23CD80C4 /* Pods-PushImprssions */,
-				FB8DDB200DC0D3223766C823576A4B1F /* Pods-PushImprssions-PushImprssionsUITests */,
-				46CAE4B3F36E1E996A63452864F44307 /* Pods-PushImprssionsTests */,
+				D416171816EE12B7F2D48E57BBA0D905 /* Pods-PushImprssions-NotificationServiceExtension.modulemap */,
+				2688A1B78CE1015A3C2231E99EF7440E /* Pods-PushImprssions-NotificationServiceExtension-acknowledgements.markdown */,
+				7A5FE6E5B46487151477787D14AE1993 /* Pods-PushImprssions-NotificationServiceExtension-acknowledgements.plist */,
+				12087F23A2E9345E059A7C6D9356F66A /* Pods-PushImprssions-NotificationServiceExtension-dummy.m */,
+				52B2E6D4E7B104F4D961C85A070AFBE8 /* Pods-PushImprssions-NotificationServiceExtension-Info.plist */,
+				A7240A1DBCFE6DFBCAA98EE4DF376C64 /* Pods-PushImprssions-NotificationServiceExtension-umbrella.h */,
+				F7B4A73B0FD6140785D52D1628C4182A /* Pods-PushImprssions-NotificationServiceExtension.debug.xcconfig */,
+				526BF896BD959354F0A5B5F6C5916243 /* Pods-PushImprssions-NotificationServiceExtension.release.xcconfig */,
+			);
+			name = "Pods-PushImprssions-NotificationServiceExtension";
+			path = "Target Support Files/Pods-PushImprssions-NotificationServiceExtension";
+			sourceTree = "<group>";
+		};
+		8A2FA14275F5F2DDA953E66785FEF9C1 /* Pods-PushImprssions */ = {
+			isa = PBXGroup;
+			children = (
+				FF54F7F61F6B05A39F19EBF5FAB53082 /* Pods-PushImprssions.modulemap */,
+				B9F0397381361D5F639189890277E0D4 /* Pods-PushImprssions-acknowledgements.markdown */,
+				C04C83EB51FD01FB2BD835194586EFA6 /* Pods-PushImprssions-acknowledgements.plist */,
+				356C96D27F0A41192CFCDF753FC41C7D /* Pods-PushImprssions-dummy.m */,
+				45ED06B252EA72C8E929B2D1A8CB6412 /* Pods-PushImprssions-frameworks.sh */,
+				744F6B48780B9BE3983B9992B19713C7 /* Pods-PushImprssions-Info.plist */,
+				EBA17531DBE49BC37A79EA72B9FBC3A3 /* Pods-PushImprssions-umbrella.h */,
+				3E4A4FB5E4F3D44ABFF7759D11672822 /* Pods-PushImprssions.debug.xcconfig */,
+				8AA68C8A10C0FB320F84DD0E93489C2E /* Pods-PushImprssions.release.xcconfig */,
+			);
+			name = "Pods-PushImprssions";
+			path = "Target Support Files/Pods-PushImprssions";
+			sourceTree = "<group>";
+		};
+		AE42C7538C31C6FFACE2216E5FC0B556 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A2FA14275F5F2DDA953E66785FEF9C1 /* Pods-PushImprssions */,
+				73E282DC40A1815057CAB135B7456C7D /* Pods-PushImprssions-NotificationServiceExtension */,
+				BE20F4791B4F85537D45738FCD94F6F7 /* Pods-PushImprssions-PushImprssionsUITests */,
+				E9DA0AB44188333E157BF8E4981B6739 /* Pods-PushImprssionsTests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BE20F4791B4F85537D45738FCD94F6F7 /* Pods-PushImprssions-PushImprssionsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6F3A69B0E94E98410DAC4D2DC01C103 /* Pods-PushImprssions-PushImprssionsUITests.modulemap */,
+				F5CBCF58A6E0C8E88EA233F936A3CB0C /* Pods-PushImprssions-PushImprssionsUITests-acknowledgements.markdown */,
+				4C3EA50D00B960F267E4156FDFBFB176 /* Pods-PushImprssions-PushImprssionsUITests-acknowledgements.plist */,
+				326437BA695ADCA61CA56DE4387EF102 /* Pods-PushImprssions-PushImprssionsUITests-dummy.m */,
+				CFF4110DAC55C27A23BBA3C83462F564 /* Pods-PushImprssions-PushImprssionsUITests-frameworks.sh */,
+				63EA917BE12E50ACD3D41A6E8D0105D4 /* Pods-PushImprssions-PushImprssionsUITests-Info.plist */,
+				075823B2DB8FAFE0F77B602C6D0B0741 /* Pods-PushImprssions-PushImprssionsUITests-umbrella.h */,
+				190BAEECC73670A5CEC2706EFA8E9FF5 /* Pods-PushImprssions-PushImprssionsUITests.debug.xcconfig */,
+				9A3E2657A8F29E516F9CDF794AB03E9B /* Pods-PushImprssions-PushImprssionsUITests.release.xcconfig */,
+			);
+			name = "Pods-PushImprssions-PushImprssionsUITests";
+			path = "Target Support Files/Pods-PushImprssions-PushImprssionsUITests";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -1256,8 +1321,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				FE2269534DDAD28BD872938D6CC2E2EF /* Frameworks */,
 				67346649E4B9D438112F24DDEAA297C7 /* Pods */,
-				F95B6E732EAA31B82FE0201475889865 /* Products */,
-				B4562D4EACC3AB2EFC392F6E848E0F54 /* Targets Support Files */,
+				5132F98A2A095E87A6E454C36140288B /* Products */,
+				AE42C7538C31C6FFACE2216E5FC0B556 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1274,6 +1339,22 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SDWebImage";
+			sourceTree = "<group>";
+		};
+		E9DA0AB44188333E157BF8E4981B6739 /* Pods-PushImprssionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E260E566562BF651A9CDA3563E8FB06F /* Pods-PushImprssionsTests.modulemap */,
+				00D5941CC63985F10B084AD11235037E /* Pods-PushImprssionsTests-acknowledgements.markdown */,
+				B3C0B9F21C217997C4EE8CE49695DCAE /* Pods-PushImprssionsTests-acknowledgements.plist */,
+				D8399851B5E58744447E9111607F5E84 /* Pods-PushImprssionsTests-dummy.m */,
+				8AC4EF1B23B0C3689DE6B0ABA655452B /* Pods-PushImprssionsTests-Info.plist */,
+				A05A2016714E58A93150E61F50AA6673 /* Pods-PushImprssionsTests-umbrella.h */,
+				B9B20FFA87B38FD3CDF55ECC20829B36 /* Pods-PushImprssionsTests.debug.xcconfig */,
+				455A50F5FCF5E93A8A65C12F8C10F711 /* Pods-PushImprssionsTests.release.xcconfig */,
+			);
+			name = "Pods-PushImprssionsTests";
+			path = "Target Support Files/Pods-PushImprssionsTests";
 			sourceTree = "<group>";
 		};
 		F06F4BCAA2C90429E7E0F8ACE966B6DB /* iOS */ = {
@@ -1349,35 +1430,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		F95B6E732EAA31B82FE0201475889865 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				36E70BE67031A10226C4E1F6E9855464 /* CleverTapSDK.framework */,
-				8DC89F0BC161390C7B7AA742133C3AA0 /* Pods_PushImprssions.framework */,
-				A1DBE4A7AB737652D27504E8AF501B36 /* Pods_PushImprssions_PushImprssionsUITests.framework */,
-				CDE3AD656419BFFB15925F7A4A02BC1B /* Pods_PushImprssionsTests.framework */,
-				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FB8DDB200DC0D3223766C823576A4B1F /* Pods-PushImprssions-PushImprssionsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				338C94016692916CA3A4F798CDA6F698 /* Pods-PushImprssions-PushImprssionsUITests.modulemap */,
-				87A927E1D72693E53359A716BED578FE /* Pods-PushImprssions-PushImprssionsUITests-acknowledgements.markdown */,
-				60E26B003F5E80029DD02385A03D2306 /* Pods-PushImprssions-PushImprssionsUITests-acknowledgements.plist */,
-				2784ACD9CE839CDF9E087BDCE14C3885 /* Pods-PushImprssions-PushImprssionsUITests-dummy.m */,
-				D3ED03CC9E2018AF904170A60C3BC96C /* Pods-PushImprssions-PushImprssionsUITests-frameworks.sh */,
-				EF3755D42775B6FEEA20F144DCD3E579 /* Pods-PushImprssions-PushImprssionsUITests-Info.plist */,
-				CD7F824F60FC8D17B4CAFC3618CBF5D5 /* Pods-PushImprssions-PushImprssionsUITests-umbrella.h */,
-				790E62476A053DAE425CCBF440855DD2 /* Pods-PushImprssions-PushImprssionsUITests.debug.xcconfig */,
-				976A60C2FD1E00F681F7753897617125 /* Pods-PushImprssions-PushImprssionsUITests.release.xcconfig */,
-			);
-			name = "Pods-PushImprssions-PushImprssionsUITests";
-			path = "Target Support Files/Pods-PushImprssions-PushImprssionsUITests";
-			sourceTree = "<group>";
-		};
 		FE2269534DDAD28BD872938D6CC2E2EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1395,6 +1447,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				08EFD87FCD1ADDBBC257D495BF6E16B6 /* Pods-PushImprssions-PushImprssionsUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D9FC61130E6850D35488FF97128DA3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4A7298A13A33A03012BDB81ACFA842 /* Pods-PushImprssions-NotificationServiceExtension-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1622,6 +1682,26 @@
 			productReference = 8DC89F0BC161390C7B7AA742133C3AA0 /* Pods_PushImprssions.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		6659CD80236FC35885AA04E5F4102CB9 /* Pods-PushImprssions-NotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E5FCE11BC6B56C7F62DD509E2A8D7F /* Build configuration list for PBXNativeTarget "Pods-PushImprssions-NotificationServiceExtension" */;
+			buildPhases = (
+				2D9FC61130E6850D35488FF97128DA3C /* Headers */,
+				1558887B1EF2449C242682454586281A /* Sources */,
+				378B16D9104E54DB65380C800390B4AD /* Frameworks */,
+				7F420254FAB8974CDBB0FF007AE7E306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A23C25B0CC3C82BCD58D4FEB890A4BB8 /* PBXTargetDependency */,
+				CD22E3E4A419DE55B2A0C0E725F596CC /* PBXTargetDependency */,
+			);
+			name = "Pods-PushImprssions-NotificationServiceExtension";
+			productName = "Pods-PushImprssions-NotificationServiceExtension";
+			productReference = E1DBD221D7FB22494F8BF235CEC04179 /* Pods_PushImprssions_NotificationServiceExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		761999D0F0CA8990121D8A42AD659846 /* Pods-PushImprssions-PushImprssionsUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E34A8890DBB060AFA94DA7260FA8E459 /* Build configuration list for PBXNativeTarget "Pods-PushImprssions-PushImprssionsUITests" */;
@@ -1690,7 +1770,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -1698,12 +1778,13 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F95B6E732EAA31B82FE0201475889865 /* Products */;
+			productRefGroup = 5132F98A2A095E87A6E454C36140288B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E12536816B6C31D7AF55D161F6F97141 /* CleverTap-iOS-SDK */,
 				5E70DB91663ACE058917813573B466D1 /* Pods-PushImprssions */,
+				6659CD80236FC35885AA04E5F4102CB9 /* Pods-PushImprssions-NotificationServiceExtension */,
 				761999D0F0CA8990121D8A42AD659846 /* Pods-PushImprssions-PushImprssionsUITests */,
 				E6F63B01E4B5790753466C5B33AB8426 /* Pods-PushImprssionsTests */,
 				3847153A6E5EEFB86565BA840768F429 /* SDWebImage */,
@@ -1720,6 +1801,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1AE5D850D812F5757CE40269F2ADF994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F420254FAB8974CDBB0FF007AE7E306 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1806,6 +1894,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1558887B1EF2449C242682454586281A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5473EC84C4AC798BBE44AA2707BDC45 /* Pods-PushImprssions-NotificationServiceExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		68072E8CFFC42F70615A55D81CB21099 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2014,11 +2110,23 @@
 			target = 3847153A6E5EEFB86565BA840768F429 /* SDWebImage */;
 			targetProxy = A04F89F4AA763E6E538E6BD96EB49809 /* PBXContainerItemProxy */;
 		};
+		A23C25B0CC3C82BCD58D4FEB890A4BB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CleverTap-iOS-SDK";
+			target = E12536816B6C31D7AF55D161F6F97141 /* CleverTap-iOS-SDK */;
+			targetProxy = 6ACDADEC9B8AFE698EDEE98F4D1D1514 /* PBXContainerItemProxy */;
+		};
 		B772A8B93F318A27D8000A19FE75AC27 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PushImprssions";
 			target = 5E70DB91663ACE058917813573B466D1 /* Pods-PushImprssions */;
 			targetProxy = 0428BDD54E1B3565BB020E43F01F43B8 /* PBXContainerItemProxy */;
+		};
+		CD22E3E4A419DE55B2A0C0E725F596CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 3847153A6E5EEFB86565BA840768F429 /* SDWebImage */;
+			targetProxy = 54797B789A105DB80E5D8A1720AC35BA /* PBXContainerItemProxy */;
 		};
 		F30DDAF77260EAD127FE60DA421BF811 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2031,7 +2139,7 @@
 /* Begin XCBuildConfiguration section */
 		37FE89F6ACF0885BA5F858D350F64144 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0268E9FC7902E544B6772DA3BFB7F37 /* Pods-PushImprssionsTests.debug.xcconfig */;
+			baseConfigurationReference = B9B20FFA87B38FD3CDF55ECC20829B36 /* Pods-PushImprssionsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2068,7 +2176,7 @@
 		};
 		4130D4A961182F019F27C9AF1BC328D8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 976A60C2FD1E00F681F7753897617125 /* Pods-PushImprssions-PushImprssionsUITests.release.xcconfig */;
+			baseConfigurationReference = 9A3E2657A8F29E516F9CDF794AB03E9B /* Pods-PushImprssions-PushImprssionsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2106,7 +2214,7 @@
 		};
 		5C065E270DF75AA688ED1A78E22FF269 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7A9375EBCBFBD55BEE5EA92F462787C /* Pods-PushImprssions.release.xcconfig */;
+			baseConfigurationReference = 8AA68C8A10C0FB320F84DD0E93489C2E /* Pods-PushImprssions.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2144,7 +2252,7 @@
 		};
 		893B07CEF43D2AEAE7555109E60FF716 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 952BB66226E064351F7875D36D48F9A7 /* Pods-PushImprssionsTests.release.xcconfig */;
+			baseConfigurationReference = 455A50F5FCF5E93A8A65C12F8C10F711 /* Pods-PushImprssionsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2179,6 +2287,43 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		93D790CFB3B1FC39FFE43D258AD4C12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7B4A73B0FD6140785D52D1628C4182A /* Pods-PushImprssions-NotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PushImprssions-NotificationServiceExtension/Pods-PushImprssions-NotificationServiceExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PushImprssions-NotificationServiceExtension/Pods-PushImprssions-NotificationServiceExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		9FFD8D95E80956EECD16575A401E5CB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2247,6 +2392,44 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		A5D2F82037C113EFF4E32F69A17CB9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 526BF896BD959354F0A5B5F6C5916243 /* Pods-PushImprssions-NotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PushImprssions-NotificationServiceExtension/Pods-PushImprssions-NotificationServiceExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PushImprssions-NotificationServiceExtension/Pods-PushImprssions-NotificationServiceExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		ABDFB319E745807D41534C9B3EC303A8 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2448,7 +2631,7 @@
 		};
 		DABE46C333849853295BC1776DF3847F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0388EB26D218DFA894AC4952821DBC6E /* Pods-PushImprssions.debug.xcconfig */;
+			baseConfigurationReference = 3E4A4FB5E4F3D44ABFF7759D11672822 /* Pods-PushImprssions.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2485,7 +2668,7 @@
 		};
 		F9610E42FCD1EC0D5A341CD93D2BFABB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 790E62476A053DAE425CCBF440855DD2 /* Pods-PushImprssions-PushImprssionsUITests.debug.xcconfig */;
+			baseConfigurationReference = 190BAEECC73670A5CEC2706EFA8E9FF5 /* Pods-PushImprssions-PushImprssionsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2564,6 +2747,15 @@
 			buildConfigurations = (
 				DABE46C333849853295BC1776DF3847F /* Debug */,
 				5C065E270DF75AA688ED1A78E22FF269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7E5FCE11BC6B56C7F62DD509E2A8D7F /* Build configuration list for PBXNativeTarget "Pods-PushImprssions-NotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D790CFB3B1FC39FFE43D258AD4C12E /* Debug */,
+				A5D2F82037C113EFF4E32F69A17CB9EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

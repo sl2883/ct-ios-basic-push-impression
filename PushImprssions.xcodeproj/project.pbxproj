@@ -19,6 +19,7 @@
 		1BEA005B2697D6FE000E207F /* NotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1BEA00542697D6FE000E207F /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8D4D408D08561C0D8632482D /* Pods_PushImprssions_PushImprssionsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF443C1BAF5146E24EE9026 /* Pods_PushImprssions_PushImprssionsUITests.framework */; };
 		B38A1056BB94CC76BEFC8190 /* Pods_PushImprssions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB0A0285CC8CFF4BF1AFFE2 /* Pods_PushImprssions.framework */; };
+		B6DDE35F447F48608928E3A6 /* Pods_PushImprssions_NotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E53478A7622BAAAB91D6FC3 /* Pods_PushImprssions_NotificationServiceExtension.framework */; };
 		F4160432644E58FDB2AEED9D /* Pods_PushImprssionsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61C3B24C6A8B1DCD61C77AE3 /* Pods_PushImprssionsTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		07E477036341D543C2FB1A75 /* Pods-PushImprssions-NotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushImprssions-NotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-PushImprssions-NotificationServiceExtension/Pods-PushImprssions-NotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
 		1BEA001D2697D65A000E207F /* PushImprssions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushImprssions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BEA00202697D65A000E207F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BEA00222697D65A000E207F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,8 @@
 		1BEA00612697D7B1000E207F /* PushImprssions.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PushImprssions.entitlements; sourceTree = "<group>"; };
 		29A0812B1EC54CD4C9649A88 /* Pods-PushImprssions-PushImprssionsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushImprssions-PushImprssionsUITests.debug.xcconfig"; path = "Target Support Files/Pods-PushImprssions-PushImprssionsUITests/Pods-PushImprssions-PushImprssionsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3BB0A0285CC8CFF4BF1AFFE2 /* Pods_PushImprssions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushImprssions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E53478A7622BAAAB91D6FC3 /* Pods_PushImprssions_NotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushImprssions_NotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADEB38705C5541755F66DF7 /* Pods-PushImprssions-NotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushImprssions-NotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-PushImprssions-NotificationServiceExtension/Pods-PushImprssions-NotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		61C3B24C6A8B1DCD61C77AE3 /* Pods_PushImprssionsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushImprssionsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C506C86FCD8A17611BA57C4 /* Pods-PushImprssions-PushImprssionsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushImprssions-PushImprssionsUITests.release.xcconfig"; path = "Target Support Files/Pods-PushImprssions-PushImprssionsUITests/Pods-PushImprssions-PushImprssionsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		928CCB380E9ACE4192CC83A4 /* Pods-PushImprssions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushImprssions.debug.xcconfig"; path = "Target Support Files/Pods-PushImprssions/Pods-PushImprssions.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6DDE35F447F48608928E3A6 /* Pods_PushImprssions_NotificationServiceExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +137,7 @@
 				3BB0A0285CC8CFF4BF1AFFE2 /* Pods_PushImprssions.framework */,
 				BBF443C1BAF5146E24EE9026 /* Pods_PushImprssions_PushImprssionsUITests.framework */,
 				61C3B24C6A8B1DCD61C77AE3 /* Pods_PushImprssionsTests.framework */,
+				3E53478A7622BAAAB91D6FC3 /* Pods_PushImprssions_NotificationServiceExtension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -212,6 +218,8 @@
 				8C506C86FCD8A17611BA57C4 /* Pods-PushImprssions-PushImprssionsUITests.release.xcconfig */,
 				9D9C810E51F51B3F143EFFE6 /* Pods-PushImprssionsTests.debug.xcconfig */,
 				F746918FEC0ADD750A1767FE /* Pods-PushImprssionsTests.release.xcconfig */,
+				4ADEB38705C5541755F66DF7 /* Pods-PushImprssions-NotificationServiceExtension.debug.xcconfig */,
+				07E477036341D543C2FB1A75 /* Pods-PushImprssions-NotificationServiceExtension.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -283,6 +291,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BEA005F2697D6FE000E207F /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */;
 			buildPhases = (
+				2A2AE95131148ED647431EBC /* [CP] Check Pods Manifest.lock */,
 				1BEA00502697D6FE000E207F /* Sources */,
 				1BEA00512697D6FE000E207F /* Frameworks */,
 				1BEA00522697D6FE000E207F /* Resources */,
@@ -377,6 +386,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2A2AE95131148ED647431EBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PushImprssions-NotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3046FBA290BD711CB5BD5E3E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -804,6 +835,7 @@
 		};
 		1BEA005D2697D6FE000E207F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ADEB38705C5541755F66DF7 /* Pods-PushImprssions-NotificationServiceExtension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = NotificationServiceExtension/NotificationServiceExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -824,6 +856,7 @@
 		};
 		1BEA005E2697D6FE000E207F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E477036341D543C2FB1A75 /* Pods-PushImprssions-NotificationServiceExtension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = NotificationServiceExtension/NotificationServiceExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;

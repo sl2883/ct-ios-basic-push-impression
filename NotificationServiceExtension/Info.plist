@@ -27,5 +27,9 @@
 		<key>NSExtensionPrincipalClass</key>
 		<string>$(PRODUCT_MODULE_NAME).NotificationService</string>
 	</dict>
+	<key>CleverTapAccountID</key>
+	<string>464-49W-WR6Z</string>
+	<key>CleverTapToken</key>
+	<string>0c4-464</string>
 </dict>
 </plist>

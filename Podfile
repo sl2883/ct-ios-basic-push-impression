@@ -17,4 +17,9 @@ target 'PushImprssions' do
     # Pods for testing
   end
 
+  target 'NotificationServiceExtension' do
+    pod "CleverTap-iOS-SDK"
+  end
+
+  
 end
